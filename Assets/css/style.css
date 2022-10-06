@@ -4,7 +4,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .header{
-    min-height: 100vh;
+    min-height: 60vh;
     width: 100%;   
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('../images/background-image.jpg');
     background-position: center;
@@ -66,4 +66,71 @@ nav img{
     margin: 10px 0 40px;
     font-size: 14px;
     color: #fff;
+}
+
+/*----------Applications----------*/
+
+.applications{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    background-color: bisque;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 22px;
+}
+.cards{
+    margin-top: 5%; 
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+    
+}
+.card-lrg{
+    flex-basis: 35%;
+    background-image: url(../images/ap1-background.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+.card-med{
+    flex-basis: 15%;
+    background-color:  rgb(241, 223, 199);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+#app2-background{
+    background-image: url(../images/ap2-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#app3-background{
+    background-image: url(../images/ap3-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#app4-background{
+    background-image: url(../images/ap4-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
 }
