@@ -45,9 +45,12 @@ Nav{
 }
 .nav-links ul li:hover::after{
     width: 100%;
-
 }
-
+.avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .text-box{
     width: 90%;
     color: #fff;
@@ -142,8 +145,8 @@ p{
     }
 }
 #contact{
-    width: 80%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     padding-top: 100px;
 }
@@ -156,9 +159,10 @@ p{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    
 }
 .contact-links ul li a{
-    color: rgb(151, 8, 8);
+    color:black;
     text-decoration: none;
     font-size: 13px;
 }
@@ -166,7 +170,7 @@ p{
     content: "";
     width: 0%;
     height: 2px;
-    background: rgb(132, 26, 26);
+    background: black;
     display: block;
     margin: auto;
     transition: 0.5s;
