@@ -106,10 +106,14 @@ p{
     margin-top: 5%; 
     display: flex;
     justify-content: space-between;
+    color: #fff;
     
 }
 .card-lrg{
-    background-color: #fff3f3;
+    background-image: url(../images/ap1-background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 70%;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 80px 40px;
@@ -117,9 +121,29 @@ p{
     border: 20px;
     margin:auto;
 }
-.card-med{
+.card-med2{
     flex-basis: 31%;
-    background-color: #fff3f3;
+    background-image: url(../images/ap2-background.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}.card-med3{
+    flex-basis: 31%;
+    background-image: url(../images/ap3-background.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}.card-med4{
+    flex-basis: 31%;
+    background-image: url(../images/ap4-background.jpg);
+    background-position: center;
+    background-size: cover;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -131,7 +155,19 @@ p{
     font-weight: 600;
     margin: 10px 0;
 }
-.card-med:hover{
+.card-med1:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+.card-med2:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+.card-med3:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+.card-med4:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
     transition: 0.5s;
 }
@@ -178,4 +214,10 @@ p{
 }
 .contact-links ul li:hover::after{
     width: 100%;
+}
+footer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
 }
