@@ -36,7 +36,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Link to Webpage
 
 
-https://moelmi89.github.io/Week-1-Code-Refactor
+https://moelmi89.github.io/Week-2-Code-PortfolioLP/
 
 
 ## Sample of the Code
