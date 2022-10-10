@@ -116,9 +116,8 @@ p{
     width: 70%;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 80px 40px;
+    padding: 90px;
     box-sizing: border-box;
-    border: 20px;
     margin:auto;
 }
 .card-med2{
@@ -128,7 +127,7 @@ p{
     background-size: cover;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 20px 12px;
+    padding: 80px;
     box-sizing: border-box;
 }.card-med3{
     flex-basis: 31%;
@@ -137,7 +136,7 @@ p{
     background-size: cover;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 20px 12px;
+    padding: 80px;
     box-sizing: border-box;
 }.card-med4{
     flex-basis: 31%;
@@ -146,7 +145,7 @@ p{
     background-size: cover;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 20px 12px;
+    padding: 80px;
     box-sizing: border-box;
 }
 
@@ -156,23 +155,23 @@ p{
     margin: 10px 0;
 }
 .card-med1:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px red;
     transition: 0.5s;
 }
 .card-med2:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px red;
     transition: 0.5s;
 }
 .card-med3:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px red;
     transition: 0.5s;
 }
 .card-med4:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px red;
     transition: 0.5s;
 }
 .card-lrg:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px red;
     transition: 0.5s;
 }
 @media(max-width: 700px){
@@ -206,7 +205,7 @@ p{
     content: "";
     width: 0%;
     height: 2px;
-    background: black;
+    background: red;
     display: block;
     margin: auto;
     transition: 0.5s;
